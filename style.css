@@ -58,3 +58,11 @@ main{
     height: 70vw;
     filter: drop-shadow(10px 200px 20px #0006);
 }
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 75px;
+}
