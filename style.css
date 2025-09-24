@@ -23,7 +23,7 @@ body{
 }
 
 header{
-    height: 100%;
+    height: 100px;
 }
 
 header nav{
@@ -49,13 +49,13 @@ main{
     color: #FFF;
     font-size: 2.25rem;
     width: 212px;
-    transform: translateX(-100%);
+    transform: translateX(-120%);
     text-align: end;
     margin-right: 30px;
 }
 
 .coca{
-    height: 70vw;
+    height: 70vh;
     filter: drop-shadow(10px 200px 20px #0006);
 }
 
@@ -73,10 +73,12 @@ header nav{
 }
 
 main{
+    flex-grow: 1;
+    display: flex;
     align-items: flex-end;
 }
 .texto{
-    transform: translateX(5);
+    transform: translateX(0);
     top: 80px;
     font-size: 1rem;
     width: 100px;
@@ -85,11 +87,11 @@ main{
 }
 
 .coca{
-    height: 70vw;
+    height: 70vh;
 }
 
 footer{
     height: 60px;
-    margin-right: px;
+    margin-right: 25px;
 }
 }
