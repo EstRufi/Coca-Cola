@@ -36,3 +36,25 @@ header nav{
     font-family: sans-serif;
     cursor: pointer;
 }
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    position: absolute;
+    color: #FFF;
+    font-size: 2.25rem;
+    width: 212px;
+    transform: translateX(-100%);
+    text-align: end;
+    margin-right: 30px;
+}
+
+.coca{
+    height: 70vw;
+    filter: drop-shadow(10px 200px 20px #0006);
+}
